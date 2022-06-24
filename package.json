@@ -1,0 +1,17 @@
+{
+  "name": "@justinwaite/prettier-config",
+  "version": "1.0.0",
+  "description": "A prettier config that I use across my projects",
+  "main": ".prettierrc.js",
+  "files": [
+    ".prettierrc.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Waite <justindwaite@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
