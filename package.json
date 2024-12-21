@@ -2,7 +2,10 @@
   "name": "@justinwaite/prettier-config",
   "version": "2.0.0",
   "description": "A prettier config that I use across my projects",
-  "repository": "https://github.com/justinwaite/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinwaite/prettier-config.git"
+  },
   "publishConfig": {
     "access": "public"
   },
