@@ -1,6 +1,6 @@
 {
   "name": "@justinwaite/prettier-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A prettier config that I use across my projects",
   "repository": "https://github.com/justinwaite/prettier-config",
   "publishConfig": {
@@ -11,11 +11,11 @@
     ".prettierrc.js"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write .prettierrc.js"
   },
   "author": "Justin Waite <justindwaite@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "prettier": "^3.4.2"
   }
 }
