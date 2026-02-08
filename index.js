@@ -1,10 +1,12 @@
 const config = {
   semi: true,
-  trailingComma: "all",
-  arrowParens: "always",
+  trailingComma: 'all',
+  arrowParens: 'always',
   bracketSpacing: true,
   singleQuote: true,
   overrides: [
-    { files: "*.md", options: { printWidth: 80, proseWrap: "always" } },
+    { files: '*.md', options: { printWidth: 80, proseWrap: 'always' } },
   ],
 };
+
+export default config;
