@@ -1,6 +1,7 @@
 {
   "name": "@justinwaite/prettier-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
+  "type": "module",
   "description": "A prettier config that I use across my projects",
   "repository": {
     "type": "git",
@@ -9,16 +10,31 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": ".prettierrc.js",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./ui": "./ui.js"
+  },
   "files": [
-    ".prettierrc.js"
+    "index.js",
+    "ui.js"
   ],
   "scripts": {
-    "format": "prettier --write .prettierrc.js"
+    "format": "prettier --write ."
   },
   "author": "Justin Waite <justindwaite@gmail.com>",
   "license": "MIT",
+  "peerDependencies": {
+    "prettier": ">=3.0.0",
+    "prettier-plugin-tailwindcss": ">=0.7.0"
+  },
+  "peerDependenciesMeta": {
+    "prettier-plugin-tailwindcss": {
+      "optional": true
+    }
+  },
   "devDependencies": {
     "prettier": "^3.4.2"
-  }
+  },
+  "prettier": "./index.js"
 }
